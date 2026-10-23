@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FF0E1012</color>
+    <color name="icon_bg">#FF16181B</color>
+
+    <style name="Theme.Feed" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+
+    <style name="Theme.Feed.Sheet" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 시간 수정 창: 어두운 바탕, 강조색도 차분하게 -->
+    <style name="Theme.Feed.Dialog" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">#FFB8915E</item>
+        <item name="android:colorBackground">#FF1A1D21</item>
+    </style>
+</resources>
